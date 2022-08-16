@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
 article {
     display: flex;
     flex-direction: column;
@@ -14,8 +19,9 @@ header {
 }
 
 main {
-    flex: 6 300px;
+    padding: 1rem;
     background: #eaedf0
+    
 }
 
 #signup {
@@ -35,7 +41,7 @@ main {
 }
 
 header, section {
-    flex: 3 150px;
+    flex: 3 50vw;
 }
 
 header, section, nav {
