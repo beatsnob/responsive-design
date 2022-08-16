@@ -1,3 +1,45 @@
-h1 {
-    color: red;
+article {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    background: #5995da;
+    flex: 1 50px;
+
+}
+header {
+    background: #b2d6ff;
+    
+}
+
+main {
+    flex: 6 300px;
+    background: #eaedf0
+}
+
+#signup {
+    background: #d6e9fe;
+}
+
+#feature:nth-of-type(2) {
+    background: #f5cf8e;
+}
+
+#feature:nth-of-type(3) {
+    background: #f09a9d;
+}
+
+#feature:nth-of-type(4) {
+    background: #c8c6fa;
+}
+
+header, section {
+    flex: 3 150px;
+}
+
+header, section, nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
